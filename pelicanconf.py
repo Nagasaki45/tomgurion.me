@@ -44,7 +44,7 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = False
 DEFAULT_DATE = 'fs'  # Get date from file creation time if missing
 
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images', 'pdfs']
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
