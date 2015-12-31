@@ -26,7 +26,7 @@ SKILLS = {
 ASIDE = {
     'header': 'Full résumé',
     'button': 'Available here',
-    'link': '#',  # TODO shoud be internal
+    'link': '/pdfs/Tom Gurion - CV.pdf',
 }
 
 MORE = {
