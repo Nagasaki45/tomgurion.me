@@ -46,5 +46,6 @@ DEFAULT_DATE = 'fs'  # Get date from file creation time if missing
 
 STATIC_PATHS = ['images', 'pdfs']
 
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['sitemap']
+SITEMAP = {'format': 'xml'}
