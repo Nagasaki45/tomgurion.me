@@ -15,7 +15,7 @@ FTP_TARGET_DIR=/
 SSH_HOST=nagasaki45.com
 SSH_PORT=22
 SSH_USER=nagasaki45
-SSH_TARGET_DIR=~/sites/www.tomgurion.com
+SSH_TARGET_DIR=~/sites/www.tomgurion.me/output
 
 S3_BUCKET=my_s3_bucket
 

@@ -13,7 +13,7 @@ DEPLOY_PATH = env.deploy_path
 
 # Remote server configuration
 production = 'nagasaki45@nagasaki45.com:22'
-dest_path = '~/sites/www.tomgurion.com'
+dest_path = '~/sites/www.tomgurion.me/output'
 
 # Rackspace Cloud Files configuration settings
 env.cloudfiles_username = 'my_rackspace_username'
