@@ -6,4 +6,14 @@ Malinka
 :img: malinka.jpg
 :summary: My indie-rock band, lead by Stav German
 
-Blah blah blah. Malinka
+Malinka is an independent rock band formed in Tel-Aviv.
+The songs stand on the border of fantasy and the local reality.
+
+We are
+
+- Stav German - music and vocals
+- Erez Dascal - guitar
+- Tom Gurion - bass guitar
+- Barak Cohen - drums
+
+.. youtube:: fzQoYdzAFz0
