@@ -47,5 +47,6 @@ DEFAULT_DATE = 'fs'  # Get date from file creation time if missing
 STATIC_PATHS = ['images', 'pdfs']
 
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['sitemap']
+PLUGINS = ['sitemap', 'pelican_youtube']
+
 SITEMAP = {'format': 'xml'}
