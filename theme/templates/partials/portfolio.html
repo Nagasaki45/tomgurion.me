@@ -4,7 +4,7 @@
         <div class="row no-gutter">
             {% for article in articles|selectattr('category', 'equalto', 'portfolio') %}
             <div class="col-lg-4 col-sm-6">
-                <a href="#portfolioModal{{ article.order }}" class="portfolio-box portfolio-link" data-toggle="modal">
+                <a href="{{ article.url }}" class="portfolio-box portfolio-link">
                     <img src="images/portfolio/{{ article.img }}" class="img-responsive" alt="">
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
