@@ -5,6 +5,8 @@ Malinka
 :order: 2
 :img: malinka.jpg
 :summary: My indie-rock band, lead by Stav German
+:links: facebook;https://www.facebook.com/malinkaband;fa-facebook
+        our music;http://malinkaband.bandcamp.com/;fa-headphones
 
 Malinka is an independent rock band formed in Tel-Aviv.
 The songs stand on the border of fantasy and the local reality.
