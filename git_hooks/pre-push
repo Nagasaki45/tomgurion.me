@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "Syncing site to server"
+make rsync_upload
