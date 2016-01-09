@@ -44,7 +44,8 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = False
 DEFAULT_DATE = 'fs'  # Get date from file creation time if missing
 
-STATIC_PATHS = ['images', 'pdfs']
+STATIC_PATHS = ['images', 'pdfs', 'extra/favicon.ico']
+EXTRA_PATH_METADATA = {'extra/favicon.ico': {'path': 'favicon.ico'}}
 
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['sitemap', 'pelican_youtube']
