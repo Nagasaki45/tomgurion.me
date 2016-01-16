@@ -129,12 +129,12 @@ section {
     }
 
     .navbar-default .navbar-header .navbar-brand {
-        color: rgba(255,255,255,.7);
+        color: #f05f40;
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-        color: #fff;
+        color: #eb3812;
     }
 
     .navbar-default .nav > li>a,
@@ -150,16 +150,6 @@ section {
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
         background-color: #fff;
-    }
-
-    .navbar-default.affix .navbar-header .navbar-brand {
-        font-size: 14px;
-        color: #f05f40;
-    }
-
-    .navbar-default.affix .navbar-header .navbar-brand:hover,
-    .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #eb3812;
     }
 
     .navbar-default.affix .nav > li>a,
@@ -229,7 +219,7 @@ header .header-content .header-content-inner p {
     header .header-content .header-content-inner {
         margin-right: auto;
         margin-left: auto;
-        max-width: 1000px;
+        max-width: 1100px;
     }
 
     header .header-content .header-content-inner p {
@@ -495,4 +485,9 @@ body {
 
 .extra-bottom {
     margin-bottom: 30px;
+}
+
+.jumbotron {
+    border-radius: 20px;
+    background-color: black;
 }

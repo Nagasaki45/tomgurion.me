@@ -1,10 +1,12 @@
 <!-- HEADER -->
 <header>
     <div class="header-content">
-        <div class="header-content-inner">
+        <div class="jumbotron header-content-inner">
             <h1>{{ HERO.slogan }}</h1>
             <hr>
-            <p>{{ HERO.subtitle }}</p>
+            {% if HERO.subtitle %}
+                <p>{{ HERO.subtitle }}</p>
+            {% endif %}
             <a href="#about" class="btn btn-primary btn-xl page-scroll">{{ HERO.button }}</a>
         </div>
     </div>

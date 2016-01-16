@@ -5,7 +5,7 @@ NAVBAR = {
 
 HERO = {
     'slogan': 'Music / Tech / Interaction',
-    'subtitle': 'Tom Gurion',
+    'subtitle': None,
     'button': 'About me',
 }
 
