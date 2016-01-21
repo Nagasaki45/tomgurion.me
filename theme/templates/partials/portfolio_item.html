@@ -11,24 +11,14 @@
         </div>
     </div>
 </section>
-<section>
+<section class="little-padding">
     <div class="container">
+        <!-- Links -->
+        {% if article.links %}
+            {% include "partials/portfolio_item_badges.html" %}
+            <hr class="primary">
+        {% endif %}
         <!-- Content -->
         {{ article.content  }}
-        <!-- Footer -->
-        {% if article.links %}
-            <div class="row text-center">
-                <hr class="primary">
-                {% for link in article.links.strip().split('\n') %}
-                    {% set text, href, icon = link.strip().split(';') %}
-                    <div class="col-lg-2 col-sm-4 col-xs-12">
-                        <a href="{{ href }}">
-                            <i class="fa {{ icon }} fa-3x wow bounceIn" data-wow-delay=".{{ loop.index }}s"></i>
-                            <p>{{ text }}</p>
-                        </a>
-                    </div>
-                {% endfor %}
-            </div>
-        {% endif %}
     </div>
 </section>

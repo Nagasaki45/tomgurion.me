@@ -41,6 +41,10 @@ a:focus {
     color: rgb(52, 52, 52);
 }
 
+.badge > a {
+    color: white;
+}
+
 h1,
 h2,
 h3,
@@ -75,6 +79,10 @@ section {
 
 .no-padding {
     padding: 0;
+}
+
+.little-padding {
+    padding: 18px;
 }
 
 .navbar-default {
