@@ -1,6 +1,6 @@
 Max/MSP and Pd
 ##############
 
-:order: 3
+:order: 1
 
-TODO
+Design, explore and implement interactive music systems and environments
