@@ -10,7 +10,7 @@ from theme_specific_texts import *
 
 AUTHOR = 'Tom Gurion'
 SITENAME = 'Tom Gurion | Music / Tech / Interaction'
-DESCRIPTION = 'lorem desc'  # TODO
+DESCRIPTION = 'I explore new ideas to facilitate interactive music creation and consumption.'
 
 SITEURL = ''
 
