@@ -11,12 +11,10 @@ HERO = {
 
 ABOUT = {
     'header': None,
-    'description': ('Tom Gurion is a musician and interaction designer and researcher. '
-                    'He holds a BSc in mathematics and music from Haifa University, '
-                    'and is currently finishing his master in the Music and Technology Program at Bar-Ilan University, '
-                    'with a thesis exploring an audio-only augmented reality systems in interactive social context. '
-                    'His academic interests include interactive music consumption, human computer interaction (HCI), '
-                    'Machine Learning and interactive art.'),
+    'description': """
+        Hi, I'm Tom. I explore new ideas to facilitate interactive music creation and consumption.
+        My formal education include a BSc in mathematics and music from Haifa University, and an MA in music technology from Bar-Ilan University, with a thesis exploring an audio-only augmented reality systems in interactive social context. My academic interests spans from interactive music systems to machine learning and human computer interaction.
+        """.strip(),
 }
 
 SKILLS = {
