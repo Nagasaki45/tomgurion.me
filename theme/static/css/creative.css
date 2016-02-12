@@ -239,22 +239,13 @@ header .header-content .header-content-inner p {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 100%;
-    text-align: center;
     color: #fff;
-    opacity: 0;
     background: rgba(240,95,64,.9);
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
-    position: absolute;
     top: 50%;
     width: 100%;
-    text-align: center;
-    transform: translateY(-50%);
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-title,
@@ -265,25 +256,42 @@ header .header-content .header-content-inner p {
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-title {
     text-transform: uppercase;
-    font-size: 14px;
     font-weight: 600;
 }
 
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 18px;
-}
-
-.portfolio-box:hover .portfolio-box-caption {
-    opacity: 1;
-}
-
 @media(min-width:768px) {
-    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-title {
-        font-size: 16px;
+    .portfolio-box .portfolio-box-caption {
+        opacity: 0;
+        height: 100%;
+        text-align: center;
+        -webkit-transition: all .35s;
+        -moz-transition: all .35s;
+        transition: all .35s;
     }
 
-    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-        font-size: 22px;
+    .portfolio-box:hover .portfolio-box-caption {
+        opacity: 1;
+    }
+
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+        position: absolute;
+        transform: translateY(-50%);
+    }
+
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name > p {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:768px) {
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-title {
+        margin-top: 5px;
+    }
+
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name > p {
+        font-size: 13px;
+        margin: 0px;
+        margin-bottom: 5px;
     }
 }
 
