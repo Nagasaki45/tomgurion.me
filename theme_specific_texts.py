@@ -13,7 +13,7 @@ ABOUT = {
     'header': None,
     'description': """
         Hi, I'm Tom. I explore new ideas to facilitate interactive music creation and consumption.
-        My formal education include a BSc in mathematics and music from Haifa University, and an MA in music technology from Bar-Ilan University, with a thesis exploring an audio-only augmented reality systems in interactive social context. My academic interests spans from interactive music systems to machine learning and human computer interaction.
+        My formal education includes a BSc in mathematics and music from Haifa University, and an MA in music technology from Bar-Ilan University, with a thesis exploring an audio-only augmented reality systems in interactive social context. My academic interests spans from interactive music systems to machine learning and human computer interaction.
         """.strip(),
 }
 
