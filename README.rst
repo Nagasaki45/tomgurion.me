@@ -4,6 +4,7 @@ My personal site and portfolio
 Static, pelican_ generated, site.
 
 .. code-block:: bash
+
     # virtualenv is highly recommended
     virtualenv env
     source env/bin/activate
