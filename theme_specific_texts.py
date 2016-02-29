@@ -23,7 +23,7 @@ SKILLS = {
 
 ASIDE = {
     'header': 'Full résumé',
-    'button': 'Available here',
+    'button': 'Download PDF',
     'link': '/pdfs/Tom Gurion - CV.pdf',
 }
 
