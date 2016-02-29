@@ -20,13 +20,6 @@ Download required pelican plugins, regenerate, serve, and sync the site to my se
     make serve
     make rsync_upload
 
-Feeling extra fency? use the git hook to sync the site automatically on every push to github:
-
-.. code-block:: bash
-
-    cp git_hooks/pre-push .git/hooks
-    chmod +x .git/hooks/pre-push
-
 Moreover, autoenv_ is really fun. Use it!
 
 .. _autoenv: https://github.com/horosgrisa/autoenv
