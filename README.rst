@@ -1,15 +1,15 @@
 My personal site and portfolio
 ==============================
 
-Static, pelican_ generated, site. I tend to use conda_ recently. Create and activate your environment with:
+Static, pelican_ generated, site.
 
 .. code-block:: bash
-
-    conda env create -f environment.yml
-    conda activate tomgurion.me
+    # virtualenv is highly recommended
+    virtualenv env
+    source env/bin/activate
+    pip install -r requirements.txt
 
 .. _pelican: http://docs.getpelican.com/
-.. _conda: http://conda.pydata.org/
 
 Download required pelican plugins, regenerate, serve, and sync the site to my server with:
 
