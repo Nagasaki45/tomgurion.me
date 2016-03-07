@@ -5,39 +5,33 @@ An Audio-Only Augmented Reality System for Social Interaction
 :order: 1
 :img: ma_thesis.jpg
 :summary: Master thesis in Music Technology, Bar-Ilan Music Department
-:links: LaTeX source;https://github.com/Nagasaki45/MA;fa-file-text
+:links: Download PDF;/pdfs/Gurion - An Audio-Only Augmented Reality System for Social Interaction.pdf;fa-file-pdf-o
+        LaTeX source;https://github.com/Nagasaki45/MA;fa-file-text
+        Experiments data and analysis;https://github.com/Nagasaki45/MA-experiment-analysis;fa-bar-chart
 
-`The final thesis, as submitted in August 2015 </pdfs/Gurion%20-%20An%20Audio-Only%20Augmented%20Reality%20System%20for%20Social%20Interaction.pdf>`_
-*****************************************************************************************************************************************************
+**Abstract:** Music plays a crucial role in social interactions.
+This thesis examines how an interactive environment might facilitate such exchanges by developing and evaluating a novel system for joint music consumption by a group of users in the same place and time.
+The system provides a platform for the creation of spatial interactive music.
+It uses relative locations measured using a Bluetooth signal, and generates an immersive personalized augmented musical environment that depends on the location of its participants.
+I conducted two experiments testing the system within the context of a silent disco party, using the system's relative position signals as well as video tracking to evaluate the experience of users with and without prior acquaintance.
+The results showed that for both groups, the system promoted openness and increased the social interaction between users.
 
-`Publication in the proceedings of HCI International 2013 </pdfs/Gurion%20and%20Jacoby%20-%20Audio-Only%20Augmented%20Reality%20System%20for%20Social%20Interaction.pdf>`_
-**************************************************************************************************************************************************************************
+Publications
+************
 
-Abstract:
-We explore new possibilities for interactive music consumption by
-proposing an audio-only augmented reality system for social interaction.
-We designed and built an Android application that measures the relative
-position of the device from specially designed Bluetooth beacons.
-Participants can freely move the beacons that are installed on physical
-objects, thereby dynamically changing the structure of the music in the
-virtual space. In a controlled experiment, we assessed the interactive
-component of the system in the context of a silent rave party by
-comparing the system positioning readings in interactive and
-non-interactive control segments. We also directly assessed the user
-experience using self-reported pre/post surveys. Our preliminary results
-show that in the post-party survey, participants self-reported
-significantly higher levels of movement using the system, compared with
-their behavior on other parties as reported in the pre-party survey. We
-used the relative positioning system in the application to objectively
-validate that the interactive components of the system facilitate
-greater participant movement in space, thereby offering more frequent
-opportunities for social interaction. Indeed, in the post-party survey
-participants reported that they danced significantly less with people
-that they knew ahead of time, compared with their pre-party survey
-reporting of usual behavior. Our results displaying the potential of
-using audio-only augmented reality in future mobile applications.
+In addition to the thesis I published an extended abstract in the proceedings of `HCI International 2013`_, and presented a `poster`_ in the conference posters session:
 
-Keywords: Augmented reality, Music technology, Social interaction, Relative indoor positioning system
+  `Gurion, Tom, and Nori Jacoby. "Audio-only augmented reality system for social interaction." HCI International 2013-Posters’ Extended Abstracts. Springer Berlin Heidelberg, 2013. 322-326.`_
+
+The extended abstract PDF is freely available `here </pdfs/Gurion%20and%20Jacoby%20-%20Audio-Only%20Augmented%20Reality%20System%20for%20Social%20Interaction.pdf>`_.
+
+I also gave an `oral presentation`_ of my research at `ISTAS'13`_.
+
+.. _`HCI International 2013`: http://hcii2013.org/
+.. _`Gurion, Tom, and Nori Jacoby. "Audio-only augmented reality system for social interaction." HCI International 2013-Posters’ Extended Abstracts. Springer Berlin Heidelberg, 2013. 322-326.`: http://link.springer.com/chapter/10.1007%2F978-3-642-39473-7_65
+.. _`ISTAS'13`: http://sites.ieee.org/istas-2013/
+.. _`poster`: /pdfs/HCI2013%20poster.pdf
+.. _`oral presentation`: http://www.slideshare.net/Nagasaki45/audioonly-augmented-reality-system-for-social-interaction
 
 Video demonstration of the Pure Data patch
 ******************************************
@@ -52,10 +46,3 @@ Participants movement tracking animations from experiment #2
 Crucial part of the analysis of experiment #2. More info on the way...
 
 .. youtube:: eMvRYz-3hrk?list=PLp02SUiCrWeRsm7KUHTFC-CyPiAD6B6Km
-
-Older materials
-***************
-
-Slideshow from my oral presentation at `ISTAS'13 <http://sites.ieee.org/istas-2013/>`_ and poster from my presentation at `HCI International 2013, Vegas <http://hcii2013.org/>`_.
-
-.. TODO add slideshow and poster.
