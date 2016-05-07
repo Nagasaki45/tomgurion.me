@@ -16,6 +16,8 @@ It uses relative locations measured using a Bluetooth signal, and generates an i
 I conducted two experiments testing the system within the context of a silent disco party, using the system's relative position signals as well as video tracking to evaluate the experience of users with and without prior acquaintance.
 The results showed that for both groups, the system promoted openness and increased the social interaction between users.
 
+  Gurion, Tom. "An Audio-Only Augmented Reality System for Social Interaction." Thesis. Bar-Ilan University Music Department. Ramat Gan Israel, 2015.
+
 Publications
 ************
 
