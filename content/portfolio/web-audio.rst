@@ -7,7 +7,7 @@ A collaborative web synth
 :summary: Experimenting the Web-Audio API
 :links: website;http://web-audio.nagasaki45.com;fa-link
         source code;https://github.com/Nagasaki45/Web-Audio;fa-github
-        more thoughts;http://tomgurion.blogspot.com/2014/02/web-audio-api-some-thoughts-and.html;fa-rss
+        more thoughts;http://blog.tomgurion.me/web-audio-api-some-thoughts-and-experiments.html;fa-rss
 
 My experiments with the `Web-Audio API`_, creating a collaborative synthesizer for the web.
 Using websockets to communicate between browsers, several players can play the keyboard simultaneously.
