@@ -2,6 +2,6 @@ Phone
 #####
 
 :icon: fa-phone
-:order: 5
+:order: 6
 
 +972-526649294
