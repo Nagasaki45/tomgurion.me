@@ -308,6 +308,10 @@ header .header-content .header-content-inner p {
     padding-left: 0;
 }
 
+.contact-item {
+    margin-bottom: 20px;
+}
+
 .btn-default {
     border-color: #fff;
     color: #222;
