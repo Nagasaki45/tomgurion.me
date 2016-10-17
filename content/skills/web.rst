@@ -3,4 +3,4 @@ Web
 
 :order: 3
 
-Front end development with bootstrap and jquery
+Front end development with vue.js, jquery, and bootstrap
