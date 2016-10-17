@@ -77,12 +77,18 @@ section {
     padding: 60px 0;
 }
 
+@media (min-width: 1200px) {
+  .portfolio-container {
+    width: 940px;
+  }
+}
+
 .no-padding {
     padding: 0;
 }
 
 .little-padding {
-    padding: 18px;
+    padding-top: 18px;
 }
 
 .navbar-default {
