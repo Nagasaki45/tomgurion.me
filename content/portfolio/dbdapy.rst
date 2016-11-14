@@ -2,7 +2,7 @@ dbdapy
 ######
 
 :date: 2016-10-17 22:00
-:order: 7
+:order: 8
 :img: dbdapy.png
 :summary: "Doing Bayesian Data Analysis" in python
 :links: notebooks;https://github.com/nagasaki45/dbdapy;fa-book
