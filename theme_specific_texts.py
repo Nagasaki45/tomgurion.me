@@ -1,6 +1,6 @@
 NAVBAR = {
     'header': 'Tom Gurion',
-    'links': ['about', 'portfolio', 'skills', 'more']
+    'links': ['about', 'portfolio', 'skills', 'contact']
 }
 
 HERO = {
@@ -27,7 +27,7 @@ ASIDE = {
     'link': '/pdfs/Tom Gurion - CV.pdf',
 }
 
-MORE = {
+CONTACT = {
     'header': 'Want to know me better?',
     'description': "Here are all the channels I'm active on. Feel free to contact me",
 }
