@@ -2,7 +2,7 @@ Xteams!
 #######
 
 :date: 2015-12-31 16:00
-:order: 7
+:order: 8
 :img: xteams.jpg
 :summary: Create teams automatically based on discrete scores of the players
 :links: website;http://xteams.nagasaki45.com;fa-link

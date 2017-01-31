@@ -2,7 +2,7 @@ MusiGali
 ########
 
 :date: 2016-01-10 23:00
-:order: 5
+:order: 6
 :img: musigali.jpg
 :summary: EEG controlled music for Brain Tech Israel 2013
 

@@ -2,7 +2,7 @@ Malinka
 #######
 
 :date: 2015-12-31 16:00
-:order: 2
+:order: 3
 :img: malinka.jpg
 :summary: My indie-rock band, lead by Stav German
 :links: facebook;https://www.facebook.com/malinkaband;fa-facebook
