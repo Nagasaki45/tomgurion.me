@@ -1,6 +1,10 @@
 NAVBAR = {
     'header': 'Tom Gurion',
-    'links': ['about', 'portfolio', 'skills', 'contact']
+    'links': {'about': '#about',
+              'portfolio': '#portfolio',
+              'skills': '#skills',
+              'contact': '#contact',
+              'blog': 'http://blog.tomgurion.me'}
 }
 
 HERO = {
