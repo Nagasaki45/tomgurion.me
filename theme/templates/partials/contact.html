@@ -4,9 +4,9 @@
         <h2 class="section-heading">{{ CONTACT.header }}</h2>
         <hr class="primary">
         <p class="text-muted extra-bottom">{{ CONTACT.description }}</p>
-        <div class="row no-gutter text-center">
+        <div>
             {% for article in articles|selectattr('category', 'equalto', 'contact') %}
-                <div class="col-sm-3 col-xs-12 contact-item">
+                <div class="contact-item">
                     {% if article.link %}<a href="{{ article.link }}">{% endif %}
                         <i class="fa {{ article.icon }} fa-3x wow bounceIn" data-wow-delay=".{{ loop.index }}s"></i>
                         {{ article.content }}

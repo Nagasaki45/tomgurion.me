@@ -33,5 +33,5 @@ ASIDE = {
 
 CONTACT = {
     'header': 'Want to know me better?',
-    'description': "Here are all the channels I'm active on. Feel free to contact me",
+    'description': "Feel free to contact me",
 }
