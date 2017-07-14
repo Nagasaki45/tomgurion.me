@@ -6,7 +6,7 @@
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <h2 class="section-heading">{{ article.title }}</h2>
                 <hr class="light">
-                <div class="face-img" style="background-image: url(images/portfolio/{{ article.img }});"></div>
+                <div class="face-img" style="background-image: url(images/portfolio/{{ article.windowed_img or article.img }});"></div>
             </div>
         </div>
     </div>
