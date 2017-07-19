@@ -6,6 +6,7 @@ Unsocial VR
 :img: unsocial-vr.png
 :windowed_img: unsocial-vr-window.png
 :summary: Fake social behaviours in shared virtual environment
+:links: source code;https://github.com/Nagasaki45/UnsocialVR;fa-github
 
 Advance Project Placement, Media and Arts Technology doctoral programme, Queen Mary University of London.
 Supervised by Prof. Patrick Healey and hosted at `Inition <https://www.inition.co.uk/>`_.
