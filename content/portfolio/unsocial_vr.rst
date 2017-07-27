@@ -2,7 +2,7 @@ Unsocial VR
 ###########
 
 :date: 2017-07-14 10:00
-:order: 2
+:order: 02
 :img: unsocial-vr.png
 :windowed_img: unsocial-vr-window.png
 :summary: Fake social behaviours in shared virtual environment

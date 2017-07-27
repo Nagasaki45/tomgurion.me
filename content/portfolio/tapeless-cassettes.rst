@@ -2,7 +2,7 @@ tapeless cassettes
 ##################
 
 :date: 2016-11-14 11:00
-:order: 8
+:order: 06
 :img: tapeless-cassettes.jpg
 :summary: Turn the wheels manually with your pinky or a BIC® pen to play the cassettes; the higher the speed the faster the music.
 :links: source code;https://github.com/Nagasaki45/TapelessCassettes;fa-github

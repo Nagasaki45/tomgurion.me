@@ -2,7 +2,7 @@ An Audio-Only Augmented Reality System for Social Interaction
 #############################################################
 
 :date: 2015-12-31 10:30
-:order: 1
+:order: 01
 :img: ma_thesis.jpg
 :summary: Master thesis in Music Technology, Bar-Ilan Music Department
 :links: Download PDF;/pdfs/Gurion - An Audio-Only Augmented Reality System for Social Interaction.pdf;fa-file-pdf-o
