@@ -9,7 +9,9 @@ Unsocial VR
 :links: source code;https://github.com/Nagasaki45/UnsocialVR;fa-github
 
 Advance Project Placement, Media and Arts Technology doctoral programme, Queen Mary University of London.
-Supervised by Prof. Patrick Healey and hosted at `Inition <https://www.inition.co.uk/>`_.
+Supervised by Prof. Patrick Healey and hosted by `Inition <https://www.inition.co.uk/>`_.
+
+.. youtube:: tqbtOL5R4fw
 
 What?
 -----
@@ -29,7 +31,4 @@ It merges ideas from telepresence and mediated communication, that explore ways 
 It depends on multiparty social interaction analysis, which take spatial cues into account in understanding who is talking with whom in a "cocktail party" situation.
 It explores new ways to generate active listening signals (or "backchannel behaviours", as they called in the scientific literature), such as head nods, in automated agents.
 
-Stay tuned for more info to come.
-Meanwhile, here is my mid project presentation.
-
-.. youtube:: K39_wlQ60-Y
+Further information can be found in my `mid-project <https://youtu.be/K39_wlQ60-Y>`_ and `inter/sections <https://youtu.be/2k8MO74guTA>`_ presentations.
