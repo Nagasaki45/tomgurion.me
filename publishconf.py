@@ -14,5 +14,3 @@ SITEURL = 'http://www.tomgurion.me'
 RELATIVE_URLS = False
 
 DELETE_OUTPUT_DIRECTORY = True
-
-GOOGLE_ANALYTICS = "UA-62733922-2"
