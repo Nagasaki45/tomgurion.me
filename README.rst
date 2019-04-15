@@ -5,7 +5,8 @@ Static, pelican_ generated, site.
 
 .. code-block:: bash
 
-    make get_plugins  # only once
-    pipenv install    # only once
-    pipenv run make regenerate
-    pipenv run make serve
+    make get_plugins       # only once
+    pip install pip-tools  # only once (preferabely in a virtualenv)
+    pip-sync               # only once
+    make regenerate
+    make serve
