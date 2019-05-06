@@ -29,7 +29,4 @@ DEFAULT_DATE = 'fs'  # Get date from file creation time if missing
 STATIC_PATHS = ['images', 'pdfs', 'extra/favicon.ico']
 EXTRA_PATH_METADATA = {'extra/favicon.ico': {'path': 'favicon.ico'}}
 
-PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['sitemap', 'pelican_youtube']
-
-SITEMAP = {'format': 'xml'}
+PLUGINS = ['pelican_youtube']
