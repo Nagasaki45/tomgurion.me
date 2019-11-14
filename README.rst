@@ -10,3 +10,5 @@ Static, pelican_ generated, site.
     pip-sync               # only once
     make regenerate
     make serve
+    
+.. _pelican: https://docs.getpelican.com/en/stable/
