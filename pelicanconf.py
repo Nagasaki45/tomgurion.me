@@ -26,7 +26,10 @@ ARTICLE_ORDER_BY = 'order'
 
 DEFAULT_DATE = 'fs'  # Get date from file creation time if missing
 
-STATIC_PATHS = ['images', 'pdfs', 'extra/favicon.ico']
-EXTRA_PATH_METADATA = {'extra/favicon.ico': {'path': 'favicon.ico'}}
+STATIC_PATHS = ['images', 'pdfs', 'extra/favicon.ico', 'extra/CNAME']
+EXTRA_PATH_METADATA = {
+    'extra/favicon.ico': {'path': 'favicon.ico'},
+    'extra/CNAME': {'path': 'CNAME'},
+}
 
 PLUGINS = ['pelican_youtube']
