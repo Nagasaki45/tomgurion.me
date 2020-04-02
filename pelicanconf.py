@@ -18,7 +18,7 @@ PATH = 'content'
 
 THEME = 'theme'
 
-TIMEZONE = 'Asia/Jerusalem'
+TIMEZONE = 'Europe/London'
 
 DEFAULT_LANG = 'en'
 
@@ -26,7 +26,31 @@ ARTICLE_ORDER_BY = 'order'
 
 DEFAULT_DATE = 'fs'  # Get date from file creation time if missing
 
-STATIC_PATHS = ['images', 'pdfs', 'extra/favicon.ico', 'extra/CNAME']
+# Feed generation is usually not desired when developing
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
+
+# Sidebar links
+SOCIAL = (
+    ('home', 'http://tomgurion.me'),
+    ('github', 'https://github.com/Nagasaki45'),
+    ('twitter', 'https://twitter.com/nagasaki45'),
+    ('envelope', 'mailto:nagasaki45@gmail.com'),
+)
+
+# Uncomment following line if you want document-relative URLs when developing
+#RELATIVE_URLS = True
+
+STATIC_PATHS = [
+    'images',
+    'pdfs',
+    'extra/favicon.ico',
+    'extra/CNAME',
+]
+
 EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'},
     'extra/CNAME': {'path': 'CNAME'},
