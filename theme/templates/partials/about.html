@@ -1,15 +1,26 @@
 <!-- ABOUT -->
-<section class="bg-primary" id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                {% if ABOUT.header %}
-                    <h2 class="section-heading">{{ ABOUT.header }}</h2>
-                {% endif %}
-                <div class="face-img"></div>
-                <hr class="light">
-                <p class="text-faded">{{ ABOUT.description }}</p>
+<div class="container">
+    <div class="row">
+        <div class="about-wrapper col-lg-8 col-lg-offset-2 text-center">
+            <div id="about">
+                <div class="avatar"></div>
+                <h1 class="title">{{ SITENAME }}</h1>
+                <p class="content">{{ DESCRIPTION }}</p>
+
+                <div>
+                    {% for name, link in SOCIAL %}
+                    {% if name == 'email' %}
+                    <a href="mailto:{{ link }}">
+                        <i class="fa fa-envelope"></i>
+                    </a>
+                    {% else %}
+                    <a class="icon" href="{{ link }}">
+                        <i class="{{ name }} fa-2x"></i>
+                    </a>
+                    {% endif %}
+                    {% endfor %}
+                </div>
             </div>
         </div>
     </div>
-</section>
+</div>

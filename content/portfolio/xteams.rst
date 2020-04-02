@@ -5,8 +5,8 @@ Xteams!
 :order: 10
 :img: xteams.jpg
 :summary: Create teams automatically based on discrete scores of the players
-:links: website;http://xteams.nagasaki45.com;fa-link
-        source code;https://github.com/Nagasaki45/Xteams;fa-github
+:links: website;https://xteams.herokuapp.com/;fas fa-link
+        source code;https://github.com/Nagasaki45/Xteams;fab fa-github
 
 You want to create teams, but:
 

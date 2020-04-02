@@ -5,8 +5,8 @@ The Krihelinator
 :order: 03
 :img: krihelinator.png
 :summary: "Trendiness of OSS should be assessed by contribution rate, not by stars" - Meir Kriheli
-:links: website;http://www.krihelinator.xyz/;fa-link
-        source code;https://github.com/Nagasaki45/krihelinator;fa-github
+:links: website;http://www.krihelinator.xyz/;fas fa-link
+        source code;https://github.com/Nagasaki45/krihelinator;fab fa-github
 
 This project proposes an alternative to `github's trending page`_, by exposing projects with high contribution rate, instead of daily stars (similarly to github's pulse page).
 The krihelimeter of each repository is calculated using the number of authors, commits, pull requests, and issues of that project, from the past week.

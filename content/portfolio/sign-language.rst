@@ -5,7 +5,7 @@ Sign-language
 :order: 07
 :img: sign-language.jpg
 :summary: A gesture to speech application
-:links: source code;https://github.com/Nagasaki45/Sign-language;fa-github
+:links: source code;https://github.com/Nagasaki45/Sign-language;fab fa-github
 
 A gesture to speech application that uses the `LeapMotion`_ to track gestures, the `WekiMini`_ to analyze the gestures using supervised machine learning algorithms, and a python web server for text to speech conversion and web interface.
 
