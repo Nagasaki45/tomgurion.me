@@ -10,7 +10,7 @@ from theme_specific_texts import *
 
 AUTHOR = 'Tom Gurion'
 SITENAME = 'Tom Gurion'
-DESCRIPTION = 'Musician, coder, and researcher of head nods.<br />Collecting hobbies in my spare time'
+DESCRIPTION = 'Musician, coder, and researcher of head nods. <br />Collecting hobbies in my spare time'
 
 SITEURL = ''
 
