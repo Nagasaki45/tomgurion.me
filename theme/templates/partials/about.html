@@ -2,15 +2,17 @@
 <div class="container">
     <div class="row">
         <div class="about-wrapper col-lg-8 col-lg-offset-2 text-center">
-            <div id="about">
-                <div class="avatar"></div>
-                <h1 class="title">{{ SITENAME }}</h1>
+            <div id="about" class="h-card">
+                <a href="{{ SITEURL }}" class="u-url">
+                    <img class="u-photo avatar" src="/images/me.jpg"></img>
+                </a>
+                <h1 class="p-name title">{{ SITENAME }}</h1>
                 <p class="content">{{ DESCRIPTION }}</p>
 
                 <div>
                     {% for name, link in SOCIAL %}
                     {% if name == 'email' %}
-                    <a href="mailto:{{ link }}">
+                    <a href="mailto:{{ link }}" class="u-email">
                         <i class="fa fa-envelope"></i>
                     </a>
                     {% else %}
