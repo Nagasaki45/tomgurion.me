@@ -73,7 +73,7 @@ HOBBIES = [
         I play an instrument since... forever!
         Started with sax and piano as a kid. Picked up bass guitar at 14 and played in a few rock bands since then.
         Got into electronic music in 2017 and shortly after started performing improvised modular jams under the alias <a href="https://nagasaki45.com"><i>nagasaki45</i></a>.
-        Recently teamed up with <a href="https://www.residentadvisor.net/dj/digitalselves"><i>digital selves</i></a> to perform together as <i>IDMT?</i>
+        Recently teamed up with <a href="https://lwlsn.github.io/digitalselves-web/"><i>digital selves</i></a> to perform together as <i>IDMT?</i>
         '''.strip(),
     },
     {
