@@ -94,23 +94,23 @@ HOBBIES = [
         '''.strip(),
     },
     {
-        'title': 'Boldering',
+        'title': 'Sports',
         'content': '''
-        My home wall is <a href="https://www.mileendwall.org.uk/">Mile End Climbing Wall</a>. On a good day I might even manage a V5.
-        '''.strip(),
-    },
-    {
-        'title': 'Cycling',
-        'content': '''
-        Into bikepacking recently. Not competitive, at all. Haven't done much yet <a>#covid19</a>
-        '''.strip(),
-    },
-    {
-        'title': 'Sewing',
-        'content': '''
-        Started from making bags for my bike.
-        Now developing some ambition for larger projects.
+        Bouldering regularly at <a href="https://www.mileendwall.org.uk/">Mile End Climbing Wall</a>.
+        On a good day I might even manage a V5.
+        Recently got into cycling, and especially bikepacking.
+        So far done a few overnighers here and there, and looking forwards for more <a>#covid19</a>.
         There's no such thing as too many hobbies, right?
+        '''.strip(),
+    },
+    {
+        'title': 'Crafts',
+        'content': '''
+        Started sewing to make bags for my bike.
+        Now developing some ambition for larger projects.
+        Get my saw and chisels out and do some carpentry when I need new furniture.
+        Also, design and build some simple modules for my synth.
+        You see, my hobbies feed themselves.
         '''.strip(),
     },
 ]
